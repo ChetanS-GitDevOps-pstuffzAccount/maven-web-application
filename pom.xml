@@ -87,17 +87,18 @@
 	</dependencies>
 	
 	<distributionManagement>
-	    <repository>
-	      <id>admin</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>http://13.127.33.11:8081/repository/maven-releases/
-	      <url>http://13.127.33.11:8081/repository/maven-releases/</url>
-	    </repository>
-	    <snapshotRepository>
-	      <id>admin</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.127.33.11:8081/repository/maven-snapshots/</url>
-	    </snapshotRepository>
-	</distributionManagement>
+            <repository>
+              <id>admin</id>
+              <name>chetan maven web application Release to nexus repo </name>
+              <url>http://13.127.33.11:8081/repository/maven-releases/</url>
+            </repository>
+            <snapshotRepository>
+              <id>admin</id>
+              <name>chetan maven web application SNAPSHOTS to nexus repo </name>
+              <url>http://13.127.33.11:8081/repository/maven-snapshots/</url>
+            </snapshotRepository>
+        </distributionManagement>
+
 	
 	<build>
 		<finalName>maven-web-application</finalName>
