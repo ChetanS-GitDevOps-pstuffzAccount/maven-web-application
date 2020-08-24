@@ -90,14 +90,15 @@
             <repository>
               <id>admin</id>
               <name>chetan maven web application Release to nexus repo </name>
-              <url>http://13.127.33.11:8081/repository/JENKINS-Release/</url>
+              <url>http://13.127.33.11:8081/repository/jenkins-Release/</url>
             </repository>
             <snapshotRepository>
               <id>admin</id>
               <name>chetan maven web application SNAPSHOTS to nexus repo </name>
-              <url>http://13.127.33.11:8081/repository/JENKINS-Snapshot/</url>
+              <url>http://13.127.33.11:8081/repository/jenkins-Snapshot/</url>
             </snapshotRepository>
         </distributionManagement>
+
 	
 	<build>
                 <finalName>maven-web-application</finalName>
