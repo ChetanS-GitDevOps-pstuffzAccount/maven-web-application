@@ -23,7 +23,7 @@
 		<spring.version>5.0.2.RELEASE</spring.version>
 		<junit.version>4.12</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>maven-snapshots</sonar.host.url>
+		<sonar.host.url>http://15.207.100.75:9000/</sonar.host.url>
                 <sonar.login>1e348287c8dab7c04d7add49af83ec5b514f69da</sonar.login>
                 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
