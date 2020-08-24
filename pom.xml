@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>1.2-SNAPSHOT</version>
+	<version>1.1-SNAPSHOT</version>
 	
 	<name>Maven Web Application</name>
 	<url>http://mithuntechnologies.com</url>
@@ -89,13 +89,13 @@
 	<distributionManagement>
 	    <repository>
 	      <id>admin</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.127.33.11:8081/repository/JENKINS-Release/</url>
+	      <name>Mithun Technologies Releases Nexus Repository</name>http://13.127.33.11:8081/repository/maven-releases/
+	      <url>http://13.127.33.11:8081/repository/maven-releases/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>admin</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.127.33.11:8081/repository/JENKINS-Snapshot/</url>
+	      <url>http://13.127.33.11:8081/repository/maven-snapshots/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
